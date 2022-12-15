@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview_player_poke_hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HP"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imgview_player_poke"
+        app:layout_constraintTop_toBottomOf="@+id/textview_player_poke_name" />
+
+    <TextView
+        android:id="@+id/textview_player_poke_xp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XP"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imgview_player_poke"
+        app:layout_constraintTop_toBottomOf="@+id/textview_player_poke_hp" />
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_poke_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="Other"
+        app:layout_constraintEnd_toStartOf="@+id/imgview_other_poke"
+        app:layout_constraintTop_toTopOf="@+id/imgview_other_poke" />
+
+    <TextView
+        android:id="@+id/textview_other_poke_hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HP"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/imgview_other_poke"
+        app:layout_constraintTop_toBottomOf="@+id/textview_poke_name3" />
+
+    <TextView
+        android:id="@+id/textview_other_poke_xp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XP"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/imgview_other_poke"
+        app:layout_constraintTop_toBottomOf="@+id/textview_other_poke_hp" />
+
+    <TextView
+        android:id="@+id/textview_player_poke_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imgview_player_poke"
+        app:layout_constraintTop_toTopOf="@+id/imgview_player_poke" />
+
+    <TextView
+        android:id="@+id/text_slideshow2"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgview_other_poke"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/ic_ball_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_slideshow2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgview_player_poke"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_ball_icon"
+        app:layout_constraintBottom_toTopOf="@+id/text_slideshow"
+        app:layout_constraintEnd_toStartOf="@+id/text_slideshow2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgview_other_poke" />
+
+    <ProgressBar
+        android:id="@+id/progb_player_poke_cd"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/imgview_player_poke"
+        app:layout_constraintStart_toStartOf="@+id/imgview_player_poke" />
+
+    <ProgressBar
+        android:id="@+id/progb_player_poke_energy"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/imgview_player_poke"
+        app:layout_constraintTop_toBottomOf="@+id/imgview_player_poke" />
+
+    <ProgressBar
+        android:id="@+id/progb_other_poke_cd"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        app:layout_constraintBottom_toTopOf="@+id/imgview_other_poke"
+        app:layout_constraintStart_toStartOf="@+id/imgview_other_poke" />
+
+    <ProgressBar
+        android:id="@+id/progb_other_poke_energy"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        app:layout_constraintStart_toStartOf="@+id/imgview_other_poke"
+        app:layout_constraintTop_toBottomOf="@+id/imgview_other_poke" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Begin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

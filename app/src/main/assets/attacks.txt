@@ -1,0 +1,230 @@
+﻿id,name,type,phys,dmg,energy,time,fast
+2,Bug Bite,Bug,1,5,6,0.5,1
+96,Bug Buzz,Bug,0,90,50,3.7,0
+205,Fell Stinger,Bug,1,50,33,2.2,0
+1,Fury Cutter,Bug,1,3,6,0.4,1
+49,Infestation,Bug,0,10,14,1.1,1
+207,Leech Life,Bug,1,30,50,2.5,0
+200,Lunge,Bug,1,55,33,2.9,0
+77,Megahorn,Bug,1,110,100,2.2,0
+135,Signal Beam,Bug,0,75,50,2.9,0
+173,Silver Wind,Bug,0,70,33,3.7,0
+50,Struggle Bug,Bug,0,15,15,1.5,1
+136,X-Scissor,Bug,1,45,33,1.6,0
+3,Bite,Dark,1,6,4,0.5,1
+183,Crunch,Dark,1,70,33,3.2,0
+73,Dark Pulse,Dark,0,80,50,3,0
+38,Feint Attack,Dark,1,10,9,0.9,1
+184,Foul Play,Dark,1,70,50,2,0
+98,Night Slash,Dark,1,50,33,2.2,0
+223,Payback,Dark,1,100,100,2.2,0
+57,Snarl,Dark,0,12,14,1.1,1
+4,Sucker Punch,Dark,1,7,8,0.7,1
+186,Draco Meteor,Dragon,0,150,100,3.6,0
+5,Dragon Breath,Dragon,0,6,4,0.5,1
+122,Dragon Claw,Dragon,1,50,33,1.7,0
+121,Dragon Pulse,Dragon,0,90,50,3.6,0
+47,Dragon Tail,Dragon,1,15,9,1.1,1
+182,Outrage,Dragon,1,110,50,3.9,0
+120,Twister,Dragon,0,45,33,2.8,0
+45,Charge Beam,Electric,0,8,15,1.1,1
+86,Discharge,Electric,0,65,33,2.5,0
+116,Parabolic Charge,Electric,0,25,50,2.8,0
+7,Spark,Electric,1,6,9,0.7,1
+118,Thunder,Electric,0,100,100,2.4,0
+66,Thunder Fang,Electric,1,12,16,1.2,1
+117,Thunder Punch,Electric,1,45,33,1.8,0
+6,Thunder Shock,Electric,0,5,8,0.6,1
+119,Thunderbolt,Electric,0,80,50,2.5,0
+46,Volt Switch,Electric,0,14,21,1.6,1
+166,Wild Charge,Electric,1,90,50,2.6,0
+167,Zap Cannon,Electric,0,140,100,3.7,0
+64,Charm,Fairy,0,20,11,1.5,1
+125,Dazzling Gleam,Fairy,0,100,50,3.5,0
+123,Disarming Voice,Fairy,0,70,33,3.9,0
+124,Draining Kiss,Fairy,0,60,50,2.6,0
+126,Moonblast,Fairy,0,130,100,3.9,0
+127,Play Rough,Fairy,1,90,50,2.9,0
+222,Aura Sphere,Fighting,0,90,50,1.8,0
+154,Brick Break,Fighting,1,40,33,1.6,0
+162,Close Combat,Fighting,1,100,100,2.3,0
+43,Counter,Fighting,1,12,8,0.9,1
+80,Cross Chop,Fighting,1,50,50,1.5,0
+208,Drain Punch,Fighting,1,50,33,2.4,0
+163,Dynamic Punch,Fighting,1,90,50,2.7,0
+221,Flying Press,Fighting,1,110,50,2.3,0
+164,Focus Blast,Fighting,0,140,100,3.5,0
+9,Karate Chop,Fighting,1,8,10,0.8,1
+8,Low Kick,Fighting,1,6,6,0.6,1
+101,Low Sweep,Fighting,1,40,33,1.9,0
+213,Power-Up Punch,Fighting,1,50,33,2,0
+41,Rock Smash,Fighting,1,15,10,1.3,1
+220,Sacred Sword,Fighting,1,55,33,1.2,0
+100,Submission,Fighting,1,60,50,2.2,0
+204,Superpower,Fighting,1,85,50,3,0
+192,Blast Burn,Fire,0,110,50,3.3,0
+211,Blaze Kick,Fire,1,45,33,1.2,0
+10,Ember,Fire,0,10,10,1,1
+139,Fire Blast,Fire,0,140,100,4.2,0
+40,Fire Fang,Fire,1,12,8,0.9,1
+148,Fire Punch,Fire,1,55,33,2.2,0
+54,Fire Spin,Fire,0,14,10,1.1,1
+138,Flame Burst,Fire,0,70,50,2.6,0
+137,Flame Charge,Fire,1,70,33,3.8,0
+76,Flame Wheel,Fire,1,60,50,2.7,0
+78,Flamethrower,Fire,0,70,50,2.2,0
+91,Heat Wave,Fire,0,95,100,3,0
+69,Incinerate,Fire,0,29,20,2.3,1
+177,Overheat,Fire,0,160,100,4,0
+232,Sacred Fire,Fire,0,120,100,2.6,0
+227,V-create,Fire,1,95,33,2.8,0
+234,Acrobatics,Flying,1,100,100,2.6,0
+92,Aerial Ace,Flying,1,55,33,2.4,0
+225,Aeroblast,Flying,0,180,100,3.4,0
+152,Air Cutter,Flying,0,60,50,2.7,0
+48,Air Slash,Flying,0,14,10,1.2,1
+169,Brave Bird,Flying,1,130,100,2,0
+88,Drill Peck,Flying,1,65,33,2.3,0
+230,Feather Dance,Flying,0,35,50,2.8,0
+226,Fly,Flying,1,80,50,1.8,0
+68,Gust,Flying,0,25,20,2,1
+153,Hurricane,Flying,0,110,100,2.7,0
+12,Peck,Flying,1,10,10,1,1
+170,Sky Attack,Flying,1,80,50,2,0
+11,Wing Attack,Flying,1,8,9,0.8,1
+51,Astonish,Ghost,1,8,14,1.1,1
+52,Hex,Ghost,0,10,16,1.2,1
+13,Lick,Ghost,1,5,6,0.5,1
+174,Night Shade,Ghost,0,60,50,2.6,0
+112,Ominous Wind,Ghost,0,50,33,2.3,0
+113,Shadow Ball,Ghost,0,100,50,3,0
+209,Shadow Bone,Ghost,1,80,50,2.8,0
+14,Shadow Claw,Ghost,1,9,6,0.7,1
+111,Shadow Punch,Ghost,1,40,33,1.7,0
+110,Shadow Sneak,Ghost,1,50,33,2.9,0
+55,Bullet Seed,Grass,1,8,14,1.1,1
+179,Energy Ball,Grass,0,90,50,3.9,0
+191,Frenzy Plant,Grass,0,100,50,2.6,0
+147,Giga Drain,Grass,0,50,100,3.9,0
+178,Grass Knot,Grass,0,90,50,2.6,0
+150,Leaf Blade,Grass,1,70,33,2.4,0
+228,Leaf Storm,Grass,0,130,100,2.5,0
+206,Leaf Tornado,Grass,0,45,33,3.1,0
+70,Magical Leaf,Grass,0,16,16,1.4,1
+95,Mega Drain,Grass,0,25,50,2.6,0
+94,Petal Blizzard,Grass,1,110,100,2.6,0
+151,Power Whip,Grass,1,90,50,2.6,0
+16,Razor Leaf,Grass,1,13,7,1,1
+104,Seed Bomb,Grass,1,55,33,2.1,0
+149,Solar Beam,Grass,0,180,100,4.9,0
+15,Vine Whip,Grass,1,7,6,0.6,1
+132,Bone Club,Ground,1,40,33,1.6,0
+133,Bulldoze,Ground,1,80,50,3.5,0
+79,Dig,Ground,1,100,50,4.7,0
+93,Drill Run,Ground,1,80,50,2.8,0
+198,Earth Power,Ground,0,100,50,3.6,0
+82,Earthquake,Ground,1,140,100,3.6,0
+219,Fissure,Ground,1,300,150,5.9,0
+134,Mud Bomb,Ground,0,55,33,2.3,0
+17,Mud Shot,Ground,0,5,7,0.6,1
+33,Mud-Slap,Ground,0,18,12,1.4,1
+190,Precipice Blades,Ground,1,130,100,1.7,0
+171,Sand Tomb,Ground,1,60,33,4,0
+165,Aurora Beam,Ice,0,80,50,3.55,0
+168,Avalanche,Ice,1,90,50,2.7,0
+90,Blizzard,Ice,0,130,100,3.1,0
+19,Frost Breath,Ice,0,10,8,0.9,1
+89,Ice Beam,Ice,0,90,50,3.3,0
+67,Ice Fang,Ice,1,12,20,1.5,1
+84,Ice Punch,Ice,1,50,33,1.9,0
+18,Ice Shard,Ice,1,12,12,1.2,1
+233,Icicle Spear,Ice,1,60,33,2.2,0
+146,Icy Wind,Ice,0,60,33,3.3,0
+44,Powder Snow,Ice,0,6,15,1,1
+159,Body Slam,Normal,1,50,33,1.9,0
+24,Cut,Normal,1,5,5,0.5,1
+215,Frustration,Normal,1,10,33,2,0
+214,Giga Impact,Normal,1,200,100,4.7,0
+58,Hidden Power,Normal,0,15,15,1.5,1
+156,Horn Attack,Normal,1,40,33,1.85,0
+218,Horn Drill,Normal,1,300,150,5.9,0
+72,Hyper Beam,Normal,0,150,100,3.8,0
+158,Hyper Fang,Normal,1,80,50,2.5,0
+194,Last Resort,Normal,1,90,50,2.9,0
+23,Pound,Normal,1,7,6,0.6,1
+62,Present,Normal,1,5,20,1.3,1
+20,Quick Attack,Normal,1,8,10,0.8,1
+216,Return,Normal,1,35,33,0.7,0
+21,Scratch,Normal,1,6,4,0.5,1
+196,Skull Bash,Normal,1,130,100,3.1,0
+157,Stomp,Normal,1,55,50,1.7,0
+161,Struggle,Normal,1,35,0,2.2,0
+155,Swift,Normal,0,60,50,2.8,0
+22,Tackle,Normal,1,5,5,0.5,1
+59,Take Down,Normal,1,8,10,1.2,1
+229,Tri Attack,Normal,0,75,50,2.5,0
+75,Vise Grip,Normal,1,35,33,1.9,0
+231,Weather Ball,Normal,0,55,33,1.6,0
+71,Wrap,Normal,1,60,33,2.9,0
+26,Acid,Poison,0,9,8,0.8,1
+197,Acid Spray,Poison,0,20,50,3,0
+128,Cross Poison,Poison,1,40,33,1.5,0
+131,Gunk Shot,Poison,1,130,100,3.1,0
+97,Poison Fang,Poison,1,35,33,1.7,0
+25,Poison Jab,Poison,1,10,7,0.8,1
+36,Poison Sting,Poison,1,5,7,0.6,1
+74,Sludge,Poison,0,50,33,2.1,0
+129,Sludge Bomb,Poison,0,80,50,2.3,0
+130,Sludge Wave,Poison,0,110,100,3.2,0
+35,Confusion,Psychic,0,20,15,1.6,1
+56,Extrasensory,Psychic,0,12,12,1.1,1
+180,Future Sight,Psychic,0,120,100,2.7,0
+85,Heart Stamp,Psychic,0,40,33,1.9,0
+181,Mirror Coat,Psychic,0,60,50,2.6,0
+81,Psybeam,Psychic,0,70,50,3.2,0
+144,Psychic,Psychic,0,90,50,2.8,0
+188,Psycho Boost,Psychic,0,70,50,4,0
+27,Psycho Cut,Psychic,1,5,8,0.6,1
+105,Psyshock,Psychic,0,65,33,2.7,0
+145,Psystrike,Psychic,0,90,50,2.3,0
+217,Synchronoise,Psychic,0,80,50,2.6,0
+34,Zen Headbutt,Psychic,1,12,10,1.1,1
+106,Ancient Power,Rock,0,70,33,3.5,0
+109,Power Gem,Rock,0,80,50,2.9,0
+172,Rock Blast,Rock,1,50,33,2.1,0
+108,Rock Slide,Rock,1,80,50,2.7,0
+28,Rock Throw,Rock,1,12,7,0.9,1
+107,Rock Tomb,Rock,1,70,50,3.2,0
+224,Rock Wrecker,Rock,1,110,50,3.6,0
+63,Smack Down,Rock,1,16,8,1.2,1
+83,Stone Edge,Rock,1,100,100,2.3,0
+30,Bullet Punch,Steel,1,9,10,0.9,1
+187,Doom Desire,Steel,0,70,33,1.7,0
+87,Flash Cannon,Steel,0,100,100,2.7,0
+175,Gyro Ball,Steel,1,80,50,3.3,0
+176,Heavy Slam,Steel,1,70,50,2.1,0
+115,Iron Head,Steel,1,60,50,1.9,0
+53,Iron Tail,Steel,1,15,7,1.1,1
+114,Magnet Bomb,Steel,1,70,33,2.8,0
+29,Metal Claw,Steel,1,8,7,0.7,1
+195,Meteor Mash,Steel,1,100,50,2.6,0
+203,Mirror Shot,Steel,0,50,33,2.4,0
+39,Steel Wing,Steel,1,11,6,0.8,1
+102,Aqua Jet,Water,1,45,33,2.6,0
+103,Aqua Tail,Water,1,50,33,1.9,0
+140,Brine,Water,0,60,50,2.3,0
+37,Bubble,Water,0,12,14,1.2,1
+99,Bubble Beam,Water,0,45,33,1.9,0
+199,Crabhammer,Water,1,85,50,1.9,0
+193,Hydro Cannon,Water,0,90,50,1.9,0
+143,Hydro Pump,Water,0,130,100,3.3,0
+210,Muddy Water,Water,0,50,33,2.2,0
+202,Octazooka,Water,0,50,50,2.3,0
+189,Origin Pulse,Water,0,130,100,1.7,0
+212,Razor Shell,Water,1,45,33,1.3,0
+142,Scald,Water,0,80,50,3.7,0
+32,Splash,Water,0,0,20,1.73,1
+185,Surf,Water,0,65,50,1.7,0
+31,Water Gun,Water,0,5,5,0.5,1
+141,Water Pulse,Water,0,70,50,3.2,0
+60,Waterfall,Water,1,16,8,1.2,1
